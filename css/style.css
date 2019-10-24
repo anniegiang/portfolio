@@ -32,7 +32,7 @@ ul {
   background-color: #fff;
   padding: 0 2rem;
   height: 0; /* creates collapsible menu */
-  min-height: 100vh;
+  min-height: 10vh; /* hides nav elements at mq <750px */
   overflow: hidden;
 }
 
