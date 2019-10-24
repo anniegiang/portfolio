@@ -50,10 +50,14 @@ ul {
   font-size: 1.1rem;
   position: relative;
   cursor: pointer;
+  opacity: 0.6;
+  transition: 0.3s;
 }
 
 .nav .nav-items .nav-link:hover {
   background-color: var(--nav-hover_color);
+  opacity: 1;
+  font-weight: 900;
 }
 
 .nav .nav-brand a {
