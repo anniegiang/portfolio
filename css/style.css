@@ -10,6 +10,10 @@ a {
   text-decoration: none;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .flex-row {
   display: flex;
   flex-direction: row;
@@ -27,6 +31,17 @@ a {
 
 .nav .nav-menu {
   justify-content: space-between;
+}
+
+.nav .nav-items {
+  display: flex;
+  margin: 0;
+}
+
+.nav .nav-items .nav-link {
+  padding: 1.6rem 1rem;
+  font-size: 1.1rem;
+  position: relative;
 }
 
 .nav .nav-brand a {
