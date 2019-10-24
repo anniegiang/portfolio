@@ -73,8 +73,11 @@ ul {
 
 .nav .social i {
   padding: 0 0.2rem;
+  opacity: 0.9;
+  transition: 0.3s;
 }
 
 .nav .social i:hover {
   color: var(--nav-hover_color);
+  opacity: 1;
 }
