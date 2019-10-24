@@ -45,6 +45,7 @@ ul {
   top: 0%;
   width: 90%;
   cursor: pointer;
+  display: none;
 }
 
 .nav .toggle-collapse .toggle-icons {
@@ -105,5 +106,9 @@ ul {
   .nav .nav-menu,
   .nav .nav-items {
     flex-direction: column;
+  }
+
+  .nav .toggle-collapse {
+    display: initial;
   }
 }
