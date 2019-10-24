@@ -15,7 +15,7 @@ a {
   background-color: #fff;
   padding: 0 2rem;
   height: 0; /* creates collapsible menu */
-  min-height: 10vh;
+  min-height: 40vh;
   overflow: hidden;
 }
 
