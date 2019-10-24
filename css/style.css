@@ -13,6 +13,7 @@ a {
 .flex-row {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap; /* wraps elements into columns */
 }
 
 /* navbar */
@@ -22,6 +23,10 @@ a {
   height: 0; /* creates collapsible menu */
   min-height: 40vh;
   overflow: hidden;
+}
+
+.nav .nav-menu {
+  justify-content: space-between;
 }
 
 .nav .nav-brand a {
