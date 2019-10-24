@@ -32,7 +32,7 @@ ul {
   background-color: #fff;
   padding: 0 2rem;
   height: 0; /* creates collapsible menu */
-  min-height: 40vh;
+  min-height: 100vh;
   overflow: hidden;
 }
 
@@ -80,4 +80,12 @@ ul {
 .nav .social i:hover {
   color: var(--nav-hover_color);
   opacity: 1;
+}
+
+/* viewport <= 750px */
+@media only screen and (max-width: 750px) {
+  .nav .nav-menu,
+  .nav .nav-items {
+    flex-direction: column;
+  }
 }
