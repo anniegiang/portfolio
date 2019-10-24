@@ -47,6 +47,7 @@ ul {
 .nav .nav-brand a {
   font-size: 1.6rem;
   padding: 1rem 0;
+  display: block; /* enables padding */
 }
 
 .nav .social {
