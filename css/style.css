@@ -34,6 +34,7 @@ ul {
   height: 0; /* creates collapsible menu */
   min-height: 10vh; /* hides nav elements at mq <750px */
   overflow: hidden;
+  transition: height 1s ease-in-out;
 }
 
 .nav .nav-menu {
