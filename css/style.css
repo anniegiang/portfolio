@@ -125,7 +125,25 @@ ul {
   .nav .toggle-collapse {
     display: initial;
   }
+}
 
-  .social {
-  }
+/* main content */
+main .site-title {
+  height: 110vh;
+  display: flex;
+  justify-content: center;
+}
+
+main .site-title .site-background {
+  padding-top: 12rem;
+  text-align: center;
+}
+
+main .site-title .site-background .site-background-name {
+  font-size: 28px;
+}
+
+main .site-title .site-background .site-background-intro {
+  font-size: 22px;
+  color: var(--font-color);
 }
