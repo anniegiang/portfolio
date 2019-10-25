@@ -113,7 +113,19 @@ ul {
     flex-direction: column;
   }
 
+  .nav .nav-menu {
+    text-align: center;
+  }
+
+  .nav .nav-items,
+  .social {
+    text-align: right;
+  }
+
   .nav .toggle-collapse {
     display: initial;
+  }
+
+  .social {
   }
 }
